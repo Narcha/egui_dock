@@ -18,7 +18,7 @@ default = []
 serde = ["dep:serde", "egui/serde"]
 
 [dependencies]
-egui = { version = "0.27", default-features = false }
+egui = { version = "0.27", git = "https://github.com/Narcha/egui.git", rev="b41419e761b26ac021b538a7a2cd1b79ded90ad9", default-features = false }
 serde = { version = "1", optional = true, features = ["derive"] }
 
 duplicate = "1.0"
